@@ -10,19 +10,59 @@ class JobController extends Controller
     {
         $jobs = [
             [
-                'title' => 'Software Developer',
-                'description' => 'We are looking for an experienced PHP developer.',
-                'location' => 'Riga, Latvia',
-                'type' => 'Full-time'
+                'title' => [
+                    'en' => 'Software Developer',
+                    'ru' => 'Разработчик ПО',
+                    'lv' => 'Programmētājs',
+                    'de' => 'Softwareentwickler'
+                ],
+                'description' => [
+                    'en' => 'We are looking for a PHP developer with Laravel experience.',
+                    'ru' => 'Ищем PHP разработчика со знанием Laravel.',
+                    'lv' => 'Meklējam PHP izstrādātāju ar Laravel pieredzi.',
+                    'de' => 'Wir suchen einen PHP-Entwickler mit Laravel-Erfahrung.'
+                ],
+                'location' => [
+                    'en' => 'Riga, Latvia',
+                    'ru' => 'Рига, Латвия',
+                    'lv' => 'Rīga, Latvija',
+                    'de' => 'Riga, Lettland'
+                ],
+                'type' => [
+                    'en' => 'Full-time',
+                    'ru' => 'Полная занятость',
+                    'lv' => 'Pilna slodze',
+                    'de' => 'Vollzeit'
+                ]
             ],
             [
-                'title' => 'Project Manager',
-                'description' => 'Seeking a project manager with IT background.',
-                'location' => 'Remote',
-                'type' => 'Full-time'
+                'title' => [
+                    'en' => 'Project Manager',
+                    'ru' => 'Проектный менеджер',
+                    'lv' => 'Projektu vadītājs',
+                    'de' => 'Projektmanager'
+                ],
+                'description' => [
+                    'en' => 'Seeking a project manager with IT background.',
+                    'ru' => 'Ищем проектного менеджера с опытом в IT.',
+                    'lv' => 'Meklējam projektu vadītāju ar IT pieredzi.',
+                    'de' => 'Suchen Projektmanager mit IT-Hintergrund.'
+                ],
+                'location' => [
+                    'en' => 'Remote',
+                    'ru' => 'Удаленно',
+                    'lv' => 'Attālināti',
+                    'de' => 'Remote'
+                ],
+                'type' => [
+                    'en' => 'Full-time',
+                    'ru' => 'Полная занятость',
+                    'lv' => 'Pilna slodze',
+                    'de' => 'Vollzeit'
+                ]
             ]
         ];
 
-        return view('jobs.index', compact('jobs'));
+        return view('jobs.index', ['jobs' => $jobs]);
     }
 }

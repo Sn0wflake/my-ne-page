@@ -2,59 +2,45 @@
 
 @section('content')
     <div class="max-w-2xl mx-auto">
-        <h1 class="text-4xl font-bold mb-8">Contact Us</h1>
+        <h1 class="text-4xl font-bold mb-8">{{ __('messages.Contact_us') }}</h1>
 
-        @if(session('success'))
-            <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
-                {{ session('success') }}
+        <div class="bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-2xl font-bold mb-4">{{ __('messages.our_details') }}</h2>
+            <div class="space-y-3">
+                <p><strong>{{ __('messages.address') }}:</strong> {{ __('messages.company_address') }}</p>
+                <p><strong>{{ __('messages.email') }}:</strong> {{ __('messages.company_email') }}</p>
+                <p><strong>{{ __('messages.phone') }}:</strong> {{ __('messages.company_phone') }}</p>
             </div>
-        @endif
-
-        <div class="bg-white rounded-lg shadow p-6">
-            <form action="{{ route('contact.store') }}" method="POST">
-                @csrf
-
-                <div class="mb-4">
-                    <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
-                    <input type="text" name="name" id="name"
-                           class="w-full px-3 py-2 border rounded-lg @error('name') border-red-500 @enderror"
-                           value="{{ old('name') }}">
-                    @error('name')
-                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                    @enderror
-                </div>
-
-                <div class="mb-4">
-                    <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
-                    <input type="email" name="email" id="email"
-                           class="w-full px-3 py-2 border rounded-lg @error('email') border-red-500 @enderror"
-                           value="{{ old('email') }}">
-                    @error('email')
-                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                    @enderror
-                </div>
-
-                <div class="mb-4">
-                    <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
-                    <textarea name="message" id="message" rows="4"
-                              class="w-full px-3 py-2 border rounded-lg @error('message') border-red-500 @enderror">{{ old('message') }}</textarea>
-                    @error('message')
-                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                    @enderror
-                </div>
-
-                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    Send Message
-                </button>
-            </form>
         </div>
 
-        <div class="mt-8 bg-white rounded-lg shadow p-6">
-            <h2 class="text-2xl font-bold mb-4">Our Details</h2>
+        <div class="bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-2xl font-bold mb-4">{{ __('messages.working_hours') }}</h2>
             <div class="space-y-2">
-                <p><strong>Address:</strong> Your Company Address</p>
-                <p><strong>Email:</strong> info@yourcompany.com</p>
-                <p><strong>Phone:</strong> +371 12345678</p>
+                <p><strong>{{ __('messages.monday_friday') }}:</strong> 9:00 AM - 6:00 PM</p>
+                <p><strong>{{ __('messages.saturday') }}:</strong> 10:00 AM - 4:00 PM</p>
+                <p><strong>{{ __('messages.sunday') }}:</strong> {{ __('messages.closed') }}</p>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-2xl font-bold mb-4">{{ __('messages.location') }}</h2>
+            <div class="w-full h-96 rounded-lg overflow-hidden">
+                <iframe
+                    class="w-full h-full border-0"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=24.3383%2C56.8527%2C24.3583%2C56.8727&amp;layer=mapnik&amp;marker=56.86274367%2C24.34836426"
+                    style="border: 1px solid #ddd;">
+                </iframe>
+                <div class="mt-2 text-sm text-gray-600">
+                    <a href="https://www.openstreetmap.org/?mlat=56.86274367&amp;mlon=24.34836426#map=15/56.86274367/24.34836426"
+                       target="_blank"
+                       class="text-blue-600 hover:text-blue-800">
+                        {{ __('messages.view_larger_map') }}
+                    </a>
+                </div>
             </div>
         </div>
     </div>

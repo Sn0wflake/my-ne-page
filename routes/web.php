@@ -6,6 +6,7 @@ use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
 
+
 Route::middleware([\App\Http\Middleware\SetLocale::class])->group(function () {
     Route::get('/', [HomeController::class, 'index'])
         ->name('home');
@@ -22,4 +23,5 @@ Route::middleware([\App\Http\Middleware\SetLocale::class])->group(function () {
 
 Route::post('/language/switch', [LanguageController::class, 'switch'])
     ->name('language.switch');
+
 

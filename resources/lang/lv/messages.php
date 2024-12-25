@@ -1,17 +1,35 @@
-
 <?php
+
 return [
-    'welcome' => 'Uzņēmuma Nosaukums',
-    'about_us' => 'Par Mums',
-    'our_services' => 'Mūsu Pakalpojumi',
-    'about_text' => 'Jūsu uzņēmuma apraksts...',
-    'service_1' => 'Pakalpojums 1',
-    'service_2' => 'Pakalpojums 2',
-    'service_3' => 'Pakalpojums 3',
-    'home' => 'Sākums',
-    'jobs' => 'Vakances',
-    'contact' => 'Kontakti'
+    'Home' => 'Sākums',
+    'Jobs' => 'Vakances',
+    'Contact' => 'Kontakti',
+    'about_us' => 'Par mums',
+    'welcome' => 'Laipni lūdzam mūsu mājas lapā',
+    'about_text' => 'Mēs esam uzņēmums, kas specializējas izcilu pakalpojumu sniegšanā.',
+    'our_services' => 'Mūsu pakalpojumi',
+    'service_1' => 'Pirmais pakalpojums',
+    'service_2' => 'Otrais pakalpojums',
+    'service_3' => 'Trešais pakalpojums',
+    'Contact_us' => 'Sazinies ar mums',
+    'name' => 'Vārds',
+    'email' => 'E-pasts',
+    'phone' => 'Tālrunis',
+    'message' => 'Ziņa',
+    'send' => 'Sūtīt',
+    'our-details' => 'Mūsu informācija',
+    'address' => 'Adrese',
+    'company_address' => 'Uzņēmuma adrese',
+    'company_email' => 'Uzņēmuma e-pasts',
+    'company_phone' => 'Uzņēmuma tālrunis',
+    'our_details' => 'Mūsu informācija',
+    'send_message' => 'Sūtīt ziņu',
+    'working_hours' => 'Darba laiks',
+    'monday_friday' => 'Pirmdiena - Piektdiena',
+    'saturday' => 'Sestdiena',
+    'sunday' => 'Svētdiena',
+    'closed' => 'Slēgts',
+    'location' => 'Mūsu atrašanās vieta',
+    'view_larger_map' => 'Skatīt lielāku karti',
+    'Available Positions' => 'Pieejamās vakances',
 ];
-
-
-
