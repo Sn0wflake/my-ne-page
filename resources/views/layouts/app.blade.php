@@ -18,11 +18,11 @@
 
             <!-- Main Navigation -->
             <div class="hidden md:flex space-x-8">
-                <a href="{{ route('home') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.Home') }}</a>
+                <a href="{{ route('home') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.home') }}</a>
                 <a href="{{ route('services') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.services')}}</a>
                 <a href="{{ route('employee') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.employee') }}</a>
-                <a href="{{ route('about') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.About_us') }}</a>
-                <a href="{{ route('contact') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.Contact') }}</a>
+                <a href="{{ route('about') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.about_us') }}</a>
+                <a href="{{ route('contact') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.contact') }}</a>
             </div>
 
             <!-- Language Switcher -->
@@ -76,7 +76,7 @@
 
             <!-- Contact Info -->
             <div>
-                <h3 class="font-bold mb-4">Contacts</h3>
+                <h3 class="font-bold mb-4">{{ __('messages.contacts') }}</h3>
                 <p>(+371) 205 111 22</p>
                 <p>(+371) 205 111 33</p>
                 <p>info@KonvirEhitus.lv</p>
@@ -95,9 +95,9 @@
 
             <!-- Working Hours -->
             <div>
-                <h3 class="font-bold mb-4">Working Hours</h3>
-                <p>Monday - Friday: 9:00 - 17:00</p>
-                <p>Saturday - Sunday: closed</p>
+                <h3 class="font-bold mb-4">{{ __('messages.working_hours') }}</h3>
+                <p>{{ __('messages.working_time') }}</p>
+                <p>{{ __('messages.weekend_working_time') }}</p>
             </div>
         </div>
     </div>

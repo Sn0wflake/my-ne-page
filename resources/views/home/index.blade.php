@@ -12,9 +12,7 @@
         </div>
         <div class="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
         <div class="relative z-10 flex items-center justify-center h-full text-center">
-            <h1 class="text-white text-5xl font-bold max-w-4xl">
-                Konvir Ehitus provides professional employment and recruitment services
-            </h1>
+            <h1 class="text-white text-5xl font-bold max-w-4xl">{{ __('messages.title') }}</h1>
         </div>
     </div>
     <!-- LTRK Section -->
@@ -23,10 +21,10 @@
             <div class="flex justify-between items-start">
                 <div class="max-w-2xl">
                     <p class="text-lg mb-4">
-                        SIA "Konvir Ehitus" is a member of the Latvian Chamber of Commerce and Industry (LTRK) with the identification number 8251.
+                        {{ __('messages.member') }}
                     </p>
                     <p class="text-lg">
-                        LTRK, as the largest business association in Latvia, plays a significant role in the development of the business environment and the promotion of international competitiveness, and we are proud to be a part of this community.
+                        {{ __('messages.membermeaning') }}
                     </p>
                 </div>
                 <div>
@@ -38,31 +36,31 @@
 
     <!-- services Section -->
     <div class="py-16">
-        <h2 class="text-4xl font-bold text-center mb-12">Our Services</h2>
+        <h2 class="text-4xl font-bold text-center mb-12">{{ __('messages.ourservices') }}</h2>
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-3 gap-8">
             <!-- Service Cards -->
             <div class="bg-white rounded-lg p-6 shadow">
                 <div class="text-red-600 mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Recruiting</h3>
-                <p class="text-gray-600 mb-4">At Konvir Ehitus, our recruiting services aim to connect companies with the best available workers.</p>
+                <h3 class="text-xl font-bold mb-2">{{ __('messages.recruiting') }}</h3>
+                <p class="text-gray-600 mb-4">{{ __('messages.recruitingservices') }}</p>
                 <a href="{{ route('services') }}"
-                   class="text-red-600">READ MORE</a>
+                   class="text-red-600">{{ __('messages.read') }}</a>
             </div>
             <div class="bg-white rounded-lg p-6 shadow">
                 <div class="text-red-600 mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Recruiting</h3>
-                <p class="text-gray-600 mb-4">At Konvir Ehitus, our recruiting services aim to connect companies with the best available workers.</p>
+                <h3 class="text-xl font-bold mb-2">{{ __('messages.recruiting') }}</h3>
+                <p class="text-gray-600 mb-4">{{ __('messages.recruitingservices') }}</p>
                 <a href="{{ route('services') }}"
-                   class="text-red-600">READ MORE</a>
+                   class="text-red-600">{{ __('messages.read') }}</a>
             </div>
             <div class="bg-white rounded-lg p-6 shadow">
                 <div class="text-red-600 mb-4">
                 </div>
-                <h3 class="text-xl font-bold mb-2">Recruiting</h3>
-                <p class="text-gray-600 mb-4">At Konvir Ehitus, our recruiting services aim to connect companies with the best available workers.</p>
-                <a href="{{ route('services') }}"
+                <h3 class="text-xl font-bold mb-2">{{ __('messages.recruiting') }}</h3>
+                <p class="text-gray-600 mb-4">{{ __('messages.recruitingservices') }}</p>
+                <a href="{{ route('services') }}"></a>
             </div>
             <!-- Repeat for other services -->
         </div>
@@ -72,8 +70,8 @@
 
     <!-- Call to Action -->
     <div class="bg-gray-900 text-white py-20 text-center">
-        <h2 class="text-4xl font-bold mb-4">ASK FOR SERVICES!</h2>
-        <p class="mb-8">Contact us and we will find the best solution for you</p>
-        <a href="{{ route('contact') }}" class="bg-red-600 text-white px-8 py-3 rounded">CONTACTS</a>
+        <h2 class="text-4xl font-bold mb-4">{{ __('messages.ask') }}</h2>
+        <p class="mb-8">{{ __('messages.asktext') }}</p>
+        <a href="{{ route('contact') }}" class="bg-red-600 text-white px-8 py-3 rounded">{{ __('messages.contacts2') }}</a>
     </div>
 @endsection

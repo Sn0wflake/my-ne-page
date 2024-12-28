@@ -5,7 +5,7 @@
     <div class="relative  bg-orange-900">
         <div class="absolute inset-0 bg-gradient-to-r from-orange-900 to-orange-800"></div>
         <div class="relative z-10 max-w-7xl mx-auto px-4 py-16">
-            <h1 class="text-5xl font-bold text-white">Services</h1>
+            <h1 class="text-5xl font-bold text-white">{{ __('messages.servicestitle') }}</h1>
         </div>
     </div>
 
@@ -14,15 +14,10 @@
         <!-- Recruiting Section -->
         <div class="flex flex-col md:flex-row items-center gap-12 mb-24">
             <div class="md:w-1/2">
-                <h2 class="text-3xl font-bold mb-4">Recruiting</h2>
+                <h2 class="text-3xl font-bold mb-4">{{ __('messages.servicesrecruitment') }}</h2>
                 <div class="w-16 h-1 bg-orange-900 mb-6"></div>
                 <p class="text-gray-700 leading-relaxed">
-                    At HRMC, our recruiting services are focused on connecting companies with
-                    the best available workers. We take a proactive approach, utilising our
-                    extensive network and advanced sourcing techniques to find candidates
-                    who fit the job requirements. Our thorough screening and interviewing
-                    processes ensure you receive a list of motivated candidates, making the
-                    hiring process efficient and effective.
+                    {{ __('messages.recruitingtext') }}
                 </p>
             </div>
             <div class="md:w-1/2">
@@ -34,7 +29,7 @@
         <!-- employee Leasing Section -->
         <div class="flex flex-col-reverse md:flex-row items-center gap-12 mb-24">
             <div class="md:w-1/2">
-                <img src="{{ asset('images/employee-leasing.jpg') }}" alt="Employee Leasing"
+                <img src="{{ asset('images/employee-leasing.jpg') }}" alt="{{ __('messages.lisingtitle') }}"
                      class="rounded-lg shadow-lg w-full h-[400px] object-cover">
             </div>
             <div class="md:w-1/2">
