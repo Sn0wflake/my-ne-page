@@ -88,7 +88,7 @@
                 <h3 class="font-bold mb-4">SIA "Konvir Ehitus"</h3>
                 <p>Reģ.nr.: 40203437226</p>
                 <p>PVN Reģ.Nr:LV 402034127226</p>
-                <p>Rīga, Marijas iela 12, LV-2015</p>
+                <p>Rīga, Antona iela 99, LV-2015</p>
                 <p>Citadele bank</p>
                 <p>LV07PARX002932131201</p>
             </div>
