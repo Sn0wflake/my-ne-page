@@ -13,14 +13,14 @@
         <div class="flex justify-between items-center h-16">
             <!-- Logo -->
             <div class="flex-shrink-0 flex items-center">
-                <img src="{{ asset('images/konvirehitus-logo.jpg') }}" alt="Convir Ehitus Logo" class="h-12">
+                <img src="{{ asset('images/konvirehitus-logo.png') }}" alt="Convir Ehitus Logo" class="h-12">
             </div>
 
             <!-- Main Navigation -->
             <div class="hidden md:flex space-x-8">
                 <a href="{{ route('home') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.home') }}</a>
                 <a href="{{ route('services') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.services')}}</a>
-                <a href="{{ route('employee') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.employee') }}</a>
+{{--                <a href="{{ route('employee') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.employee') }}</a>--}}
                 <a href="{{ route('about') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.about_us') }}</a>
                 <a href="{{ route('contact') }}" class="text-white hover:text-gray-200 px-3 py-2 text-lg font-medium">{{ __('messages.contact') }}</a>
             </div>
@@ -71,26 +71,26 @@
         <div class="grid md:grid-cols-4 gap-8">
             <!-- Logo -->
             <div>
-                <img src="{{ asset('images/konvirehitus-logo.jpg') }}" alt="Convir Ehitus Logo" class="h-24 mb-8">
+                <img src="{{ asset('images/konvirehitus-circle-logo.png') }}" alt="Convir Ehitus Logo" class="h-24 mb-8">
             </div>
 
             <!-- Contact Info -->
             <div>
                 <h3 class="font-bold mb-4">{{ __('messages.contacts') }}</h3>
-                <p>(+371) 205 111 22</p>
-                <p>(+371) 205 111 33</p>
-                <p>info@KonvirEhitus.lv</p>
-                <p>Rīga, Unijas iela 52, LV-1084</p>
+                <p>(+371) 297 745 71</p>
+                <p>(+49) 1512 0273 586</p>
+                <p>info@personallosungen.eu</p>
+                <p>Rīga, E.Birznieka Upīša 20A, LV-1050</p>
             </div>
 
             <!-- Company Info -->
             <div>
                 <h3 class="font-bold mb-4">SIA "Konvir Ehitus"</h3>
-                <p>Reģ.nr.: 40203437226</p>
-                <p>PVN Reģ.Nr:LV 402034127226</p>
-                <p>Rīga, Antona iela 99, LV-2015</p>
+                <p>Reģ.nr.: 42103111904</p>
+                <p>PVN Reģ.Nr:LV42103111904</p>
+                <p>Mārupes nov., Mārupe, Pētera iela 18, LV-2167</p>
                 <p>Citadele bank</p>
-                <p>LV07PARX002932131201</p>
+                <p>LV96ZZZ42103111904</p>
             </div>
 
             <!-- Working Hours -->

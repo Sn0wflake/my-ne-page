@@ -28,7 +28,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="{{ asset('images/ltrk-logo.png') }}" alt="LTRK Logo" class="w-48">
+                    <img src="{{ asset('images/konvirehitus-circle-logo.png') }}" alt="LTRK Logo" class="w-48">
                 </div>
             </div>
         </div>
@@ -38,31 +38,30 @@
     <div class="py-16">
         <h2 class="text-4xl font-bold text-center mb-12">{{ __('messages.ourservices') }}</h2>
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-3 gap-8">
-            <!-- Service Cards -->
-            <div class="bg-white rounded-lg p-6 shadow">
-                <div class="text-red-600 mb-4">
-                </div>
+            <div class="bg-white rounded-lg p-6 shadow flex flex-col min-h-[250px]">
+                <div class="text-red-600 mb-4"></div>
                 <h3 class="text-xl font-bold mb-2">{{ __('messages.recruiting') }}</h3>
-                <p class="text-gray-600 mb-4">{{ __('messages.recruitingservices') }}</p>
-                <a href="{{ route('services') }}"
-                   class="text-red-600">{{ __('messages.read') }}</a>
-            </div>
-            <div class="bg-white rounded-lg p-6 shadow">
-                <div class="text-red-600 mb-4">
+                <p class="text-gray-600 mb-4 flex-grow">{{ __('messages.recruitingservices') }}</p>
+                <div>
+                    <a href="{{ route('services') }}" class="text-red-600">{{ __('messages.read') }}</a>
                 </div>
-                <h3 class="text-xl font-bold mb-2">{{ __('messages.recruiting') }}</h3>
-                <p class="text-gray-600 mb-4">{{ __('messages.recruitingservices') }}</p>
-                <a href="{{ route('services') }}"
-                   class="text-red-600">{{ __('messages.read') }}</a>
             </div>
-            <div class="bg-white rounded-lg p-6 shadow">
-                <div class="text-red-600 mb-4">
+            <div class="bg-white rounded-lg p-6 shadow flex flex-col min-h-[250px]">
+                <div class="text-red-600 mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">{{ __('messages.leasing') }}</h3>
+                <p class="text-gray-600 mb-4 flex-grow">{{ __('messages.leasing_text') }}</p>
+                <div>
+                    <a href="{{ route('services') }}" class="text-red-600">{{ __('messages.read') }}</a>
                 </div>
-                <h3 class="text-xl font-bold mb-2">{{ __('messages.recruiting') }}</h3>
-                <p class="text-gray-600 mb-4">{{ __('messages.recruitingservices') }}</p>
-                <a href="{{ route('services') }}"></a>
             </div>
-            <!-- Repeat for other services -->
+            <div class="bg-white rounded-lg p-6 shadow flex flex-col min-h-[250px]">
+                <div class="text-red-600 mb-4"></div>
+                <h3 class="text-xl font-bold mb-2">{{ __('messages.advantages') }}</h3>
+                <p class="text-gray-600 mb-4 flex-grow">{{ __('messages.advatages_text') }}</p>
+                <div>
+                    <a href="{{ route('services') }}" class="text-red-600">{{ __('messages.read') }}</a>
+                </div>
+            </div>
         </div>
     </div>
 

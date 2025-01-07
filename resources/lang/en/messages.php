@@ -13,8 +13,9 @@ return [
     'working_time' => 'Monday - Friday: 9:00 - 17:00',
     'weekend_working_time' => 'Saturday - Sunday: closed',
     'title'=>'Konvir Ehitus provides professional employment and recruitment services',
-    'member'=> 'SIA "Konvir Ehitus" is a member of the Latvian Chamber of Commerce and Industry (LTRk) with the identification number 8251.',
-    'membermeaning'=> 'LTRK, as the largest business association in Latvia, plays a significant role in the development of the business environment and the promotion of international competitiveness, and we are proud to be a part of this community.',
+    'member'=> 'Recruitment services optimize the hiring process by saving valuable company time through candidate search, selection, and interviews.
+By reducing the need for extensive in-house resources for recruitment and minimizing the risk of unsuccessful hires, recruitment services offer cost-effective hiring solutions.',
+    'membermeaning'=> 'Recruitment professionals excel at matching candidates skills and experience to the specific needs of a business, ensuring better alignment and higher employee retention rates. Agencies provide valuable insights into market trends, salary benchmarks, and talent availability, helping companies remain competitive and make informed hiring decisions.',
     'ourservices'=>'Our Services',
     'recruiting'=>'Recruiting',
     'recruitingservices'=>'At Konvir Ehitus, our recruiting services aim to connect companies with the best available workers.',
@@ -24,27 +25,12 @@ return [
     'contacts2'=>'CONTACTS',
     'servicestitle'=>'Services',
     'servicesrecruitment'=>'Recruiting',
-    'recruitingtext'=>'At HRMC, our recruiting services are focused on connecting companies with
-                    the best available workers. We take a proactive approach, utilising our
-                    extensive network and advanced sourcing techniques to find candidates
-                    who fit the job requirements. Our thorough screening and interviewing
-                    processes ensure you receive a list of motivated candidates, making the
-                    hiring process efficient and effective.',
+    'recruitingtext'=>'KONVIR EHITUS personnel recruitment services offer comprehensive solutions for both temporary and permanent staffing needs. Whether you need temporary employees to cover peak periods or long-term employees to fill key roles, our recruitment experts work closely with you to understand your requirements and provide tailored recruitment solutions that enhance productivity and contribute to business success.',
     'lisingtitle'=>'Employee Leasing',
     'employee_leasing'=>'Employee Leasing',
-    'employee_leasing_text'=>'Our employee leasing services give companies the flexibility to scale their
-                               workforce to meet their needs. Employee leasing through HRMC allows you
-                               to access workers without the long-term commitment and administrative
-                               complexities of traditional hiring. We take care of payroll processing,
-                               benefits and compliance, allowing you to focus on your core operations
-                               while having a workforce that can adapt to the changing needs of your business.',
+    'employee_leasing_text'=>'Our employee leasing services provide companies with the flexibility to scale their workforce according to their needs. Leasing employees through KONVIR EHITUS allows access to workers without long-term commitments and the administrative complexities of traditional hiring. We handle payroll processing, benefits, and compliance with regulatory requirements, enabling you to focus on core operations while having a workforce at your disposal..',
     'staffing' => 'Staffing',
-    'staffing_text' => 'Konvir Ehitus recruitment services offer comprehensive solutions for both
-                         temporary and permanent staffing needs. Whether you need temporary
-                         staff to cover peak periods or long-term employees to fill key roles,
-                         our recruitment experts work closely with you to understand your requirements
-                         and offer customised recruitment solutions that increase productivity and
-                         drive business success.',
+    'staffing_text' => 'Konvir Ehitus recruitment services offer comprehensive solutions for both temporary and permanent staffing needs. Whether you require temporary employees to cover peak periods or long-term staff for key roles, our recruitment experts work closely with you to understand your requirements and provide tailored solutions.',
     'welcome_message' => 'Welcome to Konvir Ehitus!',
     'welcome_text'=>'Konvir Ehitus is a modern employment agency where dedication, camaraderie,
                       passion and a desire to help others define our team. As specialists in
@@ -75,10 +61,7 @@ return [
                      where you can work with pride and confidence.',
     'contacts3' => 'CONTACT US',
     'at' => 'At Konvir Ehitus, we are dedicated to providing professional employment and recruitment services that connect businesses.',
-    'at_text' => 'With over a decade of experience in the industry,
-            we have built a reputation for excellence and reliability.
-            Our comprehensive range of services includes recruiting,
-            employee leasing, and staffing, all tailored to meet the unique needs of our clients.',
+    'at_text' => 'KONVIR EHITUS offers a full range of recruitment consulting services, from initial job search and candidate selection to final placement and ongoing support. Our comprehensive assistance includes work legalization and residence permit support, ensuring a smooth and hassle-free process for both job seekers and employers.',
     'our_recruitment' => 'Our recruitment services utilise our extensive network
            and advanced sourcing techniques to identify candidates who meet the requirements of the job.
            We ensure a thorough screening and interview process,
@@ -98,4 +81,8 @@ return [
     'requisites' => 'Requisites',
     'licence' => 'Licence for work equipment',
     'licence_pdf' => 'Licence PDF',
+    'leasing' => 'Leasing',
+    'leasing_text' => 'Our employee leasing services provide companies with the flexibility to scale their workforce according to their needs.',
+    'advantages' => 'Advantages',
+    'advatages_text'=> 'Recruitment services optimize the hiring process, saving valuable company time by searching for candidates, screening them, and conducting interviews.',
 ];

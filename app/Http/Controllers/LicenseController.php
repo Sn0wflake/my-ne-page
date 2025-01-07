@@ -9,13 +9,13 @@ class ContactController extends Controller
     public function index()
     {
         $coordinates = [
-            'latitude' => 51.5074,  // Example: London coordinates
-            'longitude' => -0.1278
+            'latitude' => 24.129550139,
+            'longitude' => 56.949215859
         ];
 
         $licenseInfo = [
-            'number' => '29/2023',
-            'issueDate' => '25.04.2023'
+            'number' => '80/2024',
+            'issueDate' => '25.11.2024'
         ];
 
         return view('contact.index', compact('coordinates', 'licenseInfo'));

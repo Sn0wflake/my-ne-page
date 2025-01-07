@@ -25,39 +25,39 @@
             </div>
         </div>
 
-        <!-- Services Description -->
-        <div class="grid md:grid-cols-2 gap-12 mb-24">
-            <div class="bg-orange-900 text-white p-8 rounded-lg">
-                <img src="{{ asset('images/recruitment.jpg') }}" alt="Recruitment" class="w-full h-48 object-cover rounded mb-6">
-                <p class="leading-relaxed">
-                    {{ __('messages.our_recruitment') }}
-                </p>
-            </div>
-            <div class="bg-gray-50 p-8 rounded-lg">
-                <img src="{{ asset('images/employee-leasing.jpg') }}" alt="Employee Leasing" class="w-full h-48 object-cover rounded mb-6">
-                <p class="leading-relaxed text-gray-700">
-                    {{ __('messages.our_leasing') }}
-                </p>
-            </div>
-        </div>
+{{--        <!-- Services Description -->--}}
+{{--        <div class="grid md:grid-cols-2 gap-12 mb-24">--}}
+{{--            <div class="bg-orange-900 text-white p-8 rounded-lg">--}}
+{{--                <img src="{{ asset('images/recruitment.jpg') }}" alt="Recruitment" class="w-full h-48 object-cover rounded mb-6">--}}
+{{--                <p class="leading-relaxed">--}}
+{{--                    {{ __('messages.our_recruitment') }}--}}
+{{--                </p>--}}
+{{--            </div>--}}
+{{--            <div class="bg-gray-50 p-8 rounded-lg">--}}
+{{--                <img src="{{ asset('images/employee-leasing.jpg') }}" alt="Employee Leasing" class="w-full h-48 object-cover rounded mb-6">--}}
+{{--                <p class="leading-relaxed text-gray-700">--}}
+{{--                    {{ __('messages.our_leasing') }}--}}
+{{--                </p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <!-- Staffing Solutions -->
-        <div class="mb-24">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <p class="text-gray-700 leading-relaxed mb-6">
-                        {{ __('messages.our_staffing') }}
-                    </p>
-                    <p class="text-gray-700 leading-relaxed">
-                        {{ __('messages.at_at') }}
-                    </p>
-                </div>
-                <div>
-                    <img src="{{ asset('images/team-work.jpg') }}" alt="Team Work" class="rounded-lg shadow-lg w-full">
-                </div>
-            </div>
-        </div>
-    </div>
+{{--        <!-- Staffing Solutions -->--}}
+{{--        <div class="mb-24">--}}
+{{--            <div class="grid md:grid-cols-2 gap-12 items-center">--}}
+{{--                <div>--}}
+{{--                    <p class="text-gray-700 leading-relaxed mb-6">--}}
+{{--                        {{ __('messages.our_staffing') }}--}}
+{{--                    </p>--}}
+{{--                    <p class="text-gray-700 leading-relaxed">--}}
+{{--                        {{ __('messages.at_at') }}--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--                <div>--}}
+{{--                    <img src="{{ asset('images/team-work.jpg') }}" alt="Team Work" class="rounded-lg shadow-lg w-full">--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <!-- Call to Action -->
     <div class="bg-gradient-to-br from-gray-900 to-orange-900 text-white py-20">
